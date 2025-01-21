@@ -1,7 +1,8 @@
 import React from "react";
 import seriesData from "../api/seriesData.json";
 import { List } from "./list";
-import "./cards.css";
+
+
 
 export const Netflixseries = () => {
     return (

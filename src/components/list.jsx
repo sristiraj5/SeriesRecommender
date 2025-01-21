@@ -1,4 +1,4 @@
-
+import styles from "./cards.module.css";
 
 export const List = ({ data }) => {
     const { img_url, name, rating, description, cast, genre, watch_url } = data;
@@ -13,15 +13,15 @@ export const List = ({ data }) => {
             cursor: "pointer",
             
     };
-    const ratingClass = rating >= 8.5 ?  "super_hit" : "average";
+    const ratingClass = rating >= 8.5 ?  styles.super_hit : styles.average;
     return (
-        <li className="card">
+        <li className={styles.card}>
             <div>
-                <img src={img_url} alt={name} width="100%" height="60%" />
+                <img src={img_url} alt={name} width="60%" height="60%" />
             </div>
-            <div className="card-content">
+            <div className= {styles["card-content"]}>
             <h2>Name : {name}</h2>
-            <h3>Rating: <span className= {`rating ${ratingClass}`}>{rating}</span> </h3>
+            <h3>Rating: <span className= {`${styles.rating} ${ratingClass}`}>{rating}</span> </h3>
             <p>Summary: {description}</p>
             <p>Cast: {cast.join(", ")} </p>
             <p>Genre: {genre.join(", ")} </p>
