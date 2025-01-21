@@ -1,0 +1,59 @@
+[
+    {
+        "name": "BREAKING BAD",
+        "id": "brba",
+        "img_url": "/images/brba.jpg",
+
+        "rating": "9.5",
+        "description": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student to secure his family's future.",
+        "cast": ["Bryan Cranston, Aaron Paul, Anna Gunn"],
+        "genre": ["Thriller, Drama, Crime"],
+        "watch_url": "https://www.netflix.com/in/title/70143836"
+    },
+    
+    {
+        "name": "SHERLOCK",
+        "id": "sherl",
+        "img_url": "/images/sherlock.jpg",
+
+        "rating": "9.1",
+        "description": "The quirky spin on Conan Doyle's iconic sleuth pitches him as a 'high-functioning sociopath' in modern-day London.",
+        "cast": ["Benedict Cumberbatch, Martin Freeman, Una Stubbs"],
+        "genre": ["Thriller, Mystery, Crime"],
+        "watch_url": "https://www.amazon.com/Sherlock_Season_1/dp/B00499NHLC"
+    },
+    {
+        "name": "DARK",
+        "id": "dark",
+        "img_url": "/images/dark.jpg",
+
+        "rating": "8.7",
+        "description": "A family saga with a supernatural twist, set in a German town where the disappearance of two young children exposes the relationships among four families.",
+        "cast": ["Louis Hofmann, Karoline Eichhorn, Lisa Vicari"],
+        "genre": ["Psychological Thriller, Psychological Mystery, Crime"],
+        "watch_url": "https://www.netflix.com/in/title/80100172"
+    },
+    {
+        "name": "Stranger Things",
+    "id": "stranger-things",
+    "img_url": "./images/st.jpg",
+    "rating": "8.7",
+    "description": "A group of young friends witness supernatural forces and secret government exploits.",
+    "cast": ["Winona Ryder", "David Harbour", "Millie Bobby Brown"],
+    "genre": ["Drama", "Fantasy", "Horror"],
+    "watch_url": "https://www.netflix.com/title/80057281"
+    },
+    {
+        "name": "Squid Game",
+    "id": "squid-game",
+    "img_url": "./images/sg.jpg",
+    "rating": "8.1",
+    "description": "Hundreds of cash-strapped contestants accept an invitation to compete in children's games for a tempting prize, but the stakes are deadly.",
+    "cast": ["Lee Jung-jae", "Park Hae-soo", "Wi Ha-joon"],
+    "genre": ["Action", "Drama", "Mystery"],
+    "watch_url": "https://www.netflix.com/title/81040344"
+    }
+
+
+]
+    

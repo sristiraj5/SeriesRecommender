@@ -1,0 +1,19 @@
+ <><div>
+    <div>
+        <img src="brba.jpg" alt="breaking bad" width="40%" height="40%" />
+    </div>
+    <h2>Name : Breaking Bad</h2>
+    <h3>Rating: 9.5/10</h3>
+    <p>Summary:A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student to secure his family's future.</p>
+</div><div>
+        <img src="sherlock.jpg" alt="sherlock" width="40%" height="40%" />
+    </div><h2>Name : Sherlock</h2><h3>Rating: 9.1/10</h3><p>Summary:The quirky spin on Conan Doyle's iconic sleuth pitches him as a "high-functioning sociopath" in modern-day London. Assisting him in his investigations: Afghanistan War vet John Watson, who's introduced to Holmes by a mutual acquaintance.</p></></>
+  <><div>
+
+            <div>
+                <img src="dark.jpg" alt="dark" width="40%" height="40%" />
+            </div>
+            <h2>Name : Dark</h2>
+            <h3>Rating: 8.7/10</h3>
+            <p>Summary:A family saga with a supernatural twist, set in a German town where the disappearance of two young children exposes the relationships among four families.</p>
+        </div><div /></>
