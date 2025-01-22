@@ -26,7 +26,7 @@ export const List = ({ data }) => {
         
             const Rating = styled.h3 `
             font-Size: 1rem;
-            color :rgb(4, 13, 141) ;
+            color :rgb(6, 4, 141) ;
             text-transform : capitalize;
             `;
     
@@ -37,7 +37,7 @@ export const List = ({ data }) => {
                 <img src={img_url} alt={name} width="60%" height="60%" />
             </div>
             <div className= {styles["card-content"]}>
-            <h2>Name : {name}</h2>
+            <h2> {name}</h2>
             <Rating>Rating: <span className= {`${styles.rating} ${ratingClass}`}>{rating}</span> </Rating>
             <p>Summary: {description}</p>
             <p>Cast: {cast.join(", ")} </p>

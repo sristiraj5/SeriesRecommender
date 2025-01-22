@@ -34,7 +34,7 @@
         "watch_url": "https://www.netflix.com/in/title/80100172"
     },
     {
-        "name": "Stranger Things",
+        "name": "STRANGER THINGS",
     "id": "stranger-things",
     "img_url": "./images/st.jpg",
     "rating": "8.7",
@@ -44,7 +44,7 @@
     "watch_url": "https://www.netflix.com/title/80057281"
     },
     {
-        "name": "Squid Game",
+        "name": "SQUID GAME",
     "id": "squid-game",
     "img_url": "./images/sg.jpg",
     "rating": "8.1",
