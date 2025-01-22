@@ -39,7 +39,7 @@ export const List = ({ data }) => {
             <div className= {styles["card-content"]}>
             <h2> {name}</h2>
             <Rating>Rating: <span className= {`${styles.rating} ${ratingClass}`}>{rating}</span> </Rating>
-            <p>Summary: {description}</p>
+            <p className = " font-bold underline">Summary: {description}</p>
             <p>Cast: {cast.join(", ")} </p>
             <p>Genre: {genre.join(", ")} </p>
             <a href={watch_url} target="_blank" >
