@@ -4,17 +4,7 @@ import styled from "styled-components";
 export const List = ({ data }) => {
     const { img_url, name, rating, description, cast, genre, watch_url } = data;
 
-    // const btn_style = {};    //normal calling after making a object
 
-//     const ButtonSc = styled.button ({                //calling after making a object in style component
-//     backgroundColor: `${rating >= 8.5 ? "#7dcea0" : "#f7dc6f" }`
-//     padding: "1rem 2rem",
-//     border : "none",
-//     fontSize: "1rem",
-//     color : "var(--btn-color)",
-//     fontWeight: "bold",
-//     cursor: "pointer"
-// });
         const ButtonSc = styled.button `
             background-color: ${(props) => props.rating >= 8.5 ? "#7dcea0" : "#f7dc6f" };      
             padding: 1rem 2rem;
@@ -40,7 +30,7 @@ export const List = ({ data }) => {
             <div className="flex flex-col gap-6 py-[2.1rem] px-[1.2rem]">
             <h2> {name}</h2>
             <Rating>Rating: <span className= {`${styles.rating} ${ratingClass}`}>{rating}</span> </Rating>
-            <p className = "font-bold underline text-black">Summary: {description}</p>
+            <p className = "font-bold  text-black">Summary: {description}</p>
             <p>Cast: {cast.join(", ")} </p>
             <p>Genre: {genre.join(", ")} </p>
             <a href={watch_url} target="_blank" >
