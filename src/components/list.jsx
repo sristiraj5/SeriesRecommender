@@ -30,7 +30,7 @@ export const List = ({ data }) => {
             <div className="flex flex-col gap-6 py-[2.1rem] px-[1.2rem]">
             <h2> {name}</h2>
             <Rating>Rating: <span className= {`${styles.rating} ${ratingClass}`}>{rating}</span> </Rating>
-            <p className = "font-bold  text-black">Summary: {description}</p>
+            <p className = "font-bold text-xl text-black">Summary: {description}</p>
             <p>Cast: {cast.join(", ")} </p>
             <p>Genre: {genre.join(", ")} </p>
             <a href={watch_url} target="_blank" >
