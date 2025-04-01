@@ -52,8 +52,18 @@
     "cast": ["Lee Jung-jae", "Park Hae-soo", "Wi Ha-joon"],
     "genre": ["Action", "Drama", "Mystery"],
     "watch_url": "https://www.netflix.com/title/81040344"
-    }
+    },
 
+    {
+        "name": "Money Heist",
+    "id": "MONEY-HEIST",
+    "img_url": "/images/mh.jpeg",
+    "rating": "8.2",
+    "description": "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history-stealing 2.4 billion euros from the Royal Mint of Spain.",
+    "cast": ["Alvaro Morte", "Úrsula Corberó", "Itziar Ituño"],
+    "genre": ["Action", "Drama", "Mystery"],
+    "watch_url": "https://www.netflix.com/in/title/80192098"
+    }
 
 ]
     
